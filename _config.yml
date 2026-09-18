@@ -1,1 +1,20 @@
+title: Dan's Blog
+description: >-
+  Notes, projects, and things I'm learning.
+baseurl: ""
+url: "https://trainerdan.github.io"
 
+theme: minima
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+minima:
+  skin: classic
+
+# Exclude from processing.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
